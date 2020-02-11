@@ -23,5 +23,11 @@ pipeline{
                 sh 'mvn -B test'
             }
         }
+
+        stage('Code Coverage'){
+            steps{
+                sh 'mvn -B verify'
+            }
+        }
     }
 }
