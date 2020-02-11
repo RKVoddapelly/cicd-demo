@@ -42,5 +42,6 @@ pipeline{
                     sh 'docker push rkvodde/${ARTIFACT_ID}:${VERSION}'
                 }
             }
+        }
     }
 }
