@@ -17,5 +17,6 @@ public class Main {
         Member m1 = new Member();
         
         System.out.println("Hello to CI/CD through Jenkins: " + LocalDateTime.now());
+        System.out.println("Working with both RDMBS & NoSQL");
     }
 }
