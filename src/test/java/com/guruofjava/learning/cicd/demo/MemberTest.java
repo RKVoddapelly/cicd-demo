@@ -27,23 +27,23 @@ public class MemberTest {
         //fail("The test case is a prototype.");
     }
 
-    /*@Test
+    @Test
     public void testSetMemberId() {
         System.out.println("setMemberId");
         int memberId = 0;
         Member instance = new Member();
         instance.setMemberId(memberId);
-        fail("The test case is a prototype.");
+    //    fail("The test case is a prototype.");
     }
 
     @Test
     public void testGetName() {
         System.out.println("getName");
         Member instance = new Member();
-        String expResult = "";
+        String expResult = null;
         String result = instance.getName();
         assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+      //  fail("The test case is a prototype.");
     }
 
     @Test
@@ -52,10 +52,10 @@ public class MemberTest {
         String name = "";
         Member instance = new Member();
         instance.setName(name);
-        fail("The test case is a prototype.");
+        assertEquals("", instance.getName());
     }
 
-    @Test
+    /*@Test
     public void testGetEmail() {
         System.out.println("getEmail");
         Member instance = new Member();
