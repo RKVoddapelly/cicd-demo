@@ -24,7 +24,7 @@ public class MemberTest {
         int expResult = 0;
         int result = instance.getMemberId();
         assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /*@Test
